@@ -1,10 +1,12 @@
 import './App.css';
 import Header from './Header.jsx'
+import List from './List.jsx'
 
-function App(props) {
+function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header />
+      <List/>
     </div>
   )
 }
