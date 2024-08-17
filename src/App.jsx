@@ -4,7 +4,7 @@ import List from './components/List.jsx'
 import Evento from './components/Evento.jsx'
 import Form from './components/Form.jsx'
 
-function App() {
+function App(props) {
   return (
     <div className="App">
       <Header />
